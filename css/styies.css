@@ -8,13 +8,30 @@ ul,ol{
   margin-bottom: 0px;
 }
 
+img{display: block;
+min-width: 100%;
+height: auto;
+}
+
+.container-photo{display: flex;
+width: 320px;
+padding: 20px;
+
+}
+
+.my-photo{border-radius: 50px;
+
+
+
+}
 
 .wrapper{
-   background: #ffffff;
+  background-image: linear-gradient( rgb(174, 240, 252), rgb(231, 255, 143));
    display:flex;
    flex-direction: row-reverse;
    width: 1200px;
    margin: 0 auto;
+   border-radius: 20px;
 }
 
 /* Main content */
@@ -33,6 +50,9 @@ padding-top: 40px;
 padding-bottom: 40px;
 box-sizing: border-box;
 width: 370px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+
 }
 
 /* Sidebar contacts*/
@@ -146,12 +166,14 @@ margin-bottom: 8px;
 }
 
 .my-name{
-font-weight: 700;
+  font-family: "Gravitas One", serif;
+font-weight: 500;
 font-size: 45px;
 line-height: 55px;
-color: #000;
+color: #2b232c;
 margin-top: 0px;
 margin-bottom: 12px;
+text-shadow: 2px 3px 4px  #053b42;
 }
 
 .my-descr{
