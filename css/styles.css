@@ -15,7 +15,7 @@
      margin: 0;
      border-radius: 20px;
      flex-direction: column;
-     max-width: 288px;
+     min-width: 320px;
 
  }
 
@@ -51,11 +51,7 @@
  }
 
 
- .my-photo {
-     object-fit: cover;
 
-
- }
 
  .span {
      text-shadow: none;
@@ -67,7 +63,7 @@
      display: flex;
      align-items: center;
      overflow: hidden;
-     max-width: 250px;
+     max-width: 320px;
      border-radius: 50px;
      /* padding: 20px; */
 
@@ -75,7 +71,7 @@
 
 
  .sidebar {
-     max-width: 288px;
+     width: 320px;
      height: auto;
      padding: 20px;
      justify-content: center;
@@ -367,7 +363,7 @@
  @media screen and (min-width:768px) {
 
      body {
-         max-width: 768px;
+         min-width: 768px;
          background: #edf1f394;
 
          font-family: "Montserrat", sans-serif;
@@ -476,139 +472,139 @@
 
  /* ===== min-width:1158px ===== */
 
- @media screen and (min-width:1158px){
+ @media screen and (min-width:1158px) {
 
-    body {
-        min-width: 1158px;
-           
-            padding: 40px 40px 40px 40px;
-           padding: 0px;
-        }
-    
-        ul,
-        ol {
-            margin-top: 0px;
-            margin-bottom: 0px;
-        }
-    
-    
-        .wrapper {
-        
-           max-width: 1158px;
-            margin: 0 auto;
-        }
-    
-        /* Main content */
-    
-        .main-content {
-    
-            padding: 88px 80px 40px 80px;
-           width: 735px;
-        }
-    
-        /* Sidebar */
-    
-        .sidebar {
-          
-            min-width: 370px;
-        }
-    
-.my-photo {
+     body {
+         max-width: 1280px;
 
-    width: 100%;
-   
+         padding: 40px 40px 40px 40px;
+         margin: 0 auto;
+     }
 
-}
-
-.container-photo {
-    overflow: hidden;
-    /* display: flex; */
-    max-width: 370px;
+     ul,
+     ol {
+         margin-top: 0px;
+         margin-bottom: 0px;
+     }
 
 
-}
+     .wrapper {
 
-        /* Sidebar contacts*/
-    
-        .sidebar-contacts {
-        
-            max-width: 370px;
-    
-        }
-    
-     
-    
-        .contacts-container {
-            margin-bottom: 40px;
-        }
-    
-        /* skills-title */
-    
-        .skills-container {
-            margin-bottom: 40px;
-        }
-    
-       
-    
-        .skil-list {
-            padding-left: 18px;
-        }
-    
-       
-    
-        /* Soft-skills-title */
-    
-        .soft-skills-container {
-            margin-bottom: 40px;
-        }
-    
-       
-    
-        .soft-skills-list {
-            padding-left: 18px;
-        }
-    
-        .soft-skills-list-item {
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 24px;
-            color: #161d2a;
-        }
-    
-        /* My content */
-    
-       
-    
-        .my-name {
-            font-weight: 500;
-            font-size: 40px;
-            line-height: 55px;
-            color: #0000009c;
-            margin-top: 0px;
-            margin-bottom: 12px;
-        }
-    
-        
-    
-        .my-info {
-            margin-bottom: 40px;
-        }
-    
-        /* My projects */
-    
-        .my-projects-container {
-            margin-bottom: 40px;
-        }
-    
-        /* Work Experience */
-    
-        .work-experience-title {
-           
-            margin-bottom: 20px;
-        }
-    
-        .work-experience-container {
-            margin-bottom: 12px;
-        }
-    
+         max-width: 1200px;
+         margin: 0 auto;
+     }
+
+     /* Main content */
+
+     .main-content {
+
+         padding: 88px 80px 40px 80px;
+         width: 1200px;
+     }
+
+     /* Sidebar */
+
+     .sidebar {
+         padding-right: 20px;
+         min-width: 370px;
+     }
+
+     .my-photo {
+
+         width: 100%;
+
+
+     }
+
+     .container-photo {
+         overflow: hidden;
+         /* display: flex; */
+         max-width: 370px;
+
+
+     }
+
+     /* Sidebar contacts*/
+
+     .sidebar-contacts {
+
+         max-width: 370px;
+
+     }
+
+
+
+     .contacts-container {
+         margin-bottom: 40px;
+     }
+
+     /* skills-title */
+
+     .skills-container {
+         margin-bottom: 40px;
+     }
+
+
+
+     .skil-list {
+         padding-left: 18px;
+     }
+
+
+
+     /* Soft-skills-title */
+
+     .soft-skills-container {
+         margin-bottom: 40px;
+     }
+
+
+
+     .soft-skills-list {
+         padding-left: 18px;
+     }
+
+     .soft-skills-list-item {
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 24px;
+         color: #161d2a;
+     }
+
+     /* My content */
+
+
+
+     .my-name {
+         font-weight: 500;
+         font-size: 40px;
+         line-height: 55px;
+         color: #0000009c;
+         margin-top: 0px;
+         margin-bottom: 12px;
+     }
+
+
+
+     .my-info {
+         margin-bottom: 40px;
+     }
+
+     /* My projects */
+
+     .my-projects-container {
+         margin-bottom: 40px;
+     }
+
+     /* Work Experience */
+
+     .work-experience-title {
+
+         margin-bottom: 20px;
+     }
+
+     .work-experience-container {
+         margin-bottom: 12px;
+     }
+
  }
