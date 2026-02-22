@@ -59,12 +59,18 @@
      font-size: 14px;
  }
 
+ .my-photo {
+     object-fit: cover;
+     min-width: 250px;
+
+ }
+
  .container-photo {
      display: flex;
      align-items: center;
-     overflow: hidden;
-     max-width: 320px;
-     border-radius: 50px;
+     /* overflow: hidden; */
+     min-width: 250px;
+     border-radius: 30px;
      /* padding: 20px; */
 
  }
@@ -381,7 +387,7 @@
      .container-photo {
          display: block;
          min-width: 250px;
-         align-items: flex-start;
+         /* align-items: flex-start; */
          margin-bottom: 100px;
 
 
@@ -510,14 +516,18 @@
      }
 
      .my-photo {
+         object-fit: cover;
+         min-width: 370px;
+         min-height: 420px;
 
-         width: 100%;
+
+         /* width: 100%; */
 
 
      }
 
      .container-photo {
-         overflow: hidden;
+         /* overflow: hidden; */
          /* display: flex; */
          max-width: 370px;
 
